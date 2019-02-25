@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <com.liuzq.library.MyEditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLength="6"
+            android:layout_marginLeft="15dp"
+            android:cursorVisible="false"
+            android:inputType="number"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal">
+        <TextView
+                android:id="@+id/tv_1"
+                style="@style/InputBox"
+                android:background="@drawable/bg_input_box_selected"/>
+        <TextView
+                android:id="@+id/tv_2"
+                style="@style/InputBox"/>
+        <TextView
+                android:id="@+id/tv_3"
+                style="@style/InputBox"/>
+        <TextView
+                android:id="@+id/tv_4"
+                style="@style/InputBox"/>
+        <TextView
+                android:id="@+id/tv_5"
+                style="@style/InputBox"/>
+        <TextView
+                android:id="@+id/tv_6"
+                style="@style/InputBox"/>
+    </LinearLayout>
+</RelativeLayout>
